@@ -9,4 +9,52 @@ html {
 body {
 	margin: 0;
 	min-width: 320px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+h2 {
+	margin: 0;
+	font-weight: bold;
+	font-size: 2em;
+}
+
+nav ol{
+	list-style-type: none;
+}
+
+ul {
+	list-style-type: none;
+}
+
+
+
+
+
+div {
+	background-color: #000;
+	color: #fff;
+	padding: 1.5em;
+}
+
+.h2-quote {
+	float: right;
+	position: relative;
+	bottom: 40px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+footer {
+	background-color: #000;
+	color: #fff;
 }
