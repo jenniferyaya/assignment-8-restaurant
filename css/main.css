@@ -6,21 +6,127 @@ html {
 	box-sizing: inherit;
 }
 
+img {
+	width: 100%;
+}
+
 body {
 	margin: 0;
 	min-width: 320px;
 	font-family: 'Ubuntu', sans-serif;
 }
 
+.header {
+	background-color: #000;
+}
+
+header {
+	background-color: #000;
+	padding: 1em;
+	position: relative;
+}
+
+p {
+	padding-left: 1em;
+}
+
+
+
+h1 {
+	color: #fff;
+	font-size: 1.25em;
+	margin: 0;
+}
+
+.hero-img {
+	position: relative;
+	z-index: 1;
+}
+
+.hero-text {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	top: 100px;
+	left: 50px;
+	text-align: center;
+	font-size: 1.25em;
+	font-weight: bold;
+}
+
+.nav {
+	display: none;
+	color: #fff;
+	list-style-type: none;
+	background-color: rgba(0, 0, 0, .5);
+	margin: 0;
+	padding: 1.5em;
+	text-align: right;
+	z-index: 10;
+	position: absolute;
+	left: 0px;
+	width: 100%;
+	padding-right: 3.5em;
+}
+
+.nav-check:checked ~ .nav {
+	display: block;
+}
+
+.nav-check {
+	position: absolute;
+	top: -3em;
+}
+
+.nav-check:checked ~ .nav-label {
+	background-color: #000;
+}
+
+.nav-label {
+	cursor: pointer;
+	font-size: 1.25rem;
+	width: 40px;
+	display: inline-block;
+	position: absolute;
+	right: 50px;
+	top: 30px;
+}
+
+.nav-open,
+.nav-close {
+	display: block;
+	width: 100%;
+}
+
+.nav-close {
+	display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-open {
+	display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-close {
+	display: block;
+}
+
+nav ol {
+	list-style-type: none;
+	background-color: #a41e23;
+}
+
+
+
+
+
 h2 {
 	margin: 0;
 	font-weight: bold;
-	font-size: 2em;
+	font-size: 1.25em;
 }
 
-nav ol{
-	list-style-type: none;
-}
+
 
 ul {
 	list-style-type: none;
@@ -30,8 +136,8 @@ ul {
 
 
 
-div {
-	background-color: #000;
+.div-h2 {
+	background-color: #a41e23;
 	color: #fff;
 	padding: 1.5em;
 }
@@ -42,6 +148,11 @@ div {
 	bottom: 40px;
 	font-weight: bold;
 	text-transform: uppercase;
+	font-size: .75em;
+}
+
+h3, h4 {
+	padding-left: 1em;
 }
 
 
@@ -51,10 +162,11 @@ div {
 
 
 
-
-
+.footer {
+	background-color: #000;
+	padding: 1em;
+}
 
 footer {
-	background-color: #000;
 	color: #fff;
 }
