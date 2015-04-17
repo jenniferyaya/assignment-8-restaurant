@@ -27,14 +27,15 @@ header {
 }
 
 p {
-	padding-left: 1em;
+	padding: .75em;
+	margin: 0;
 }
 
 
 
 h1 {
 	color: #fff;
-	font-size: 1.25em;
+	font-size: 1.25rem;
 	margin: 0;
 }
 
@@ -62,7 +63,6 @@ h1 {
 	background-color: rgba(0, 0, 0, .5);
 	margin: 0;
 	padding: 1.5em;
-	text-align: right;
 	z-index: 10;
 	position: absolute;
 	left: 0px;
@@ -111,50 +111,75 @@ h1 {
 	display: block;
 }
 
-nav ol {
-	list-style-type: none;
-	background-color: #a41e23;
-}
 
 
 
 
 
 h2 {
-	margin: 0;
 	font-weight: bold;
-	font-size: 1.25em;
+	font-size: 1rem;
 }
-
-
 
 ul {
 	list-style-type: none;
 }
 
-
-
-
-
 .div-h2 {
 	background-color: #a41e23;
 	color: #fff;
-	padding: 1.5em;
+	padding: 1.25em;
+	margin: 0;
+	position: relative;
 }
 
-.h2-quote {
-	float: right;
-	position: relative;
-	bottom: 40px;
+.h3-quote {
+	position: absolute;
+	bottom: 20px;
+	padding-left: 1em;
+	right: 0;
 	font-weight: bold;
 	text-transform: uppercase;
-	font-size: .75em;
+	font-size: .75rem;
 }
 
-h3, h4 {
+h3 {
 	padding-left: 1em;
 }
 
+.food {
+	margin: 0;
+	padding: 0;
+}
+
+.nightlife {
+	background-color: rgba(164, 30, 34, .3);
+}
+
+h4 {
+	padding-left: 1em;
+	margin: 0;
+}
+
+.spaces {
+	width: 200px;
+	position: relative;
+	float: left;
+}
+
+figcaption {
+	color: #fff;
+	text-transform: uppercase;
+	position: absolute;
+	top: 55px;
+	left: 75px;
+	overflow: hidden;
+}
+
+.p-rental {
+	float: right;
+	font-weight: bold;
+}
 
 
 
@@ -165,6 +190,7 @@ h3, h4 {
 .footer {
 	background-color: #000;
 	padding: 1em;
+	overflow: hidden;
 }
 
 footer {
