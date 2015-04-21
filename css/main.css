@@ -22,7 +22,7 @@ body {
 
 header {
 	background-color: #000;
-	padding: 1em;
+	padding: 1.5em;
 	position: relative;
 }
 
@@ -41,7 +41,6 @@ h1 {
 
 .hero-img {
 	position: relative;
-	z-index: 1;
 }
 
 .hero-text {
@@ -49,18 +48,19 @@ h1 {
 	margin: 0;
 	padding: 0;
 	color: #fff;
-	top: 100px;
+	top: 150px;
 	left: 50px;
 	text-align: center;
 	font-size: 1.25em;
 	font-weight: bold;
+	z-index: 9;
 }
 
 .nav {
 	display: none;
-	color: #fff;
+	color: #a41e23;
 	list-style-type: none;
-	background-color: rgba(0, 0, 0, .5);
+	background-color: #000;
 	margin: 0;
 	padding: 1.5em;
 	z-index: 10;
@@ -68,6 +68,13 @@ h1 {
 	left: 0px;
 	width: 100%;
 	padding-right: 3.5em;
+	font-size: 1.05rem;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.nav li:hover {
+color: #fff;
 }
 
 .nav-check:checked ~ .nav {
@@ -115,7 +122,6 @@ h1 {
 
 
 
-
 h2 {
 	font-weight: bold;
 	font-size: 1rem;
@@ -136,7 +142,7 @@ ul {
 .h3-quote {
 	position: absolute;
 	bottom: 20px;
-	padding-left: 1em;
+	padding-right: 2.5em;
 	right: 0;
 	font-weight: bold;
 	text-transform: uppercase;
@@ -177,8 +183,8 @@ figcaption {
 }
 
 .p-rental {
-	float: right;
 	font-weight: bold;
+	padding-left: 2em;
 }
 
 
@@ -193,6 +199,15 @@ figcaption {
 	overflow: hidden;
 }
 
+.social-media {
+	float: left;
+	width: 20%;
+
+}
+
+
+
 footer {
 	color: #fff;
+	margin: 0;
 }
