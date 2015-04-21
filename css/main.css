@@ -177,9 +177,11 @@ figcaption {
 	color: #fff;
 	text-transform: uppercase;
 	position: absolute;
-	top: 55px;
-	left: 75px;
+	top: 60px;
+	left: 65px;
 	overflow: hidden;
+	font-weight: bold;
+	font-size: 1.25rem;
 }
 
 .p-rental {
@@ -202,12 +204,21 @@ figcaption {
 .social-media {
 	float: left;
 	width: 20%;
-
 }
-
 
 
 footer {
 	color: #fff;
 	margin: 0;
+}
+
+.button {
+	font-size: .75rem;
+	float: right;
+	top: 12px;
+	right: 30px;
+	position: relative;
+	background-color: #a41e23;
+	border-radius: 22px;
+
 }
