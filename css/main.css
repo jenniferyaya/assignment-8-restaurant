@@ -242,13 +242,14 @@ footer {
 }
 
 .button {
-	font-size: .75rem;
+	font-size: .50rem;
 	float: right;
 	top: 12px;
 	right: 30px;
 	position: relative;
 	background-color: #a41e23;
-	border-radius: 22px;
+	padding: 0.5em;
+	text-align: center;
 
 }
 
