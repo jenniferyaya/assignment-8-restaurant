@@ -57,7 +57,7 @@ h1 {
 }
 
 .intro-p {
-	padding-left: .25em;
+	padding-left: .5em;
 	color: #000;
 }
 
@@ -151,6 +151,7 @@ ul {
 	padding: 1.25em;
 	margin: 0;
 	position: relative;
+	margin-top: .75em;
 
 }
 
@@ -177,6 +178,7 @@ h3 {
 .reservations {
 	margin-bottom: 1em;
 	background-color: #000;
+	color: #fff;
 }
 
 .nightlife {
@@ -186,13 +188,21 @@ h3 {
 h4 {
 	padding: .75em;
 	margin: 0;
-	background-color: #a41e23;
-	color: #fff;
+	background-color: #a41e23;;
 }
  .night {
  	padding-left: 1em;
+ 	margin-bottom: 0.5em;
+ 	padding-bottom: .5em;
+ 	background-color: #a41e23;
+ 	color: #fff;
  }
 
+.event {
+	padding-left: 1em;
+	margin: 0;
+	margin-bottom: 1em;
+}
 
 .spaces {
 	position: relative;
