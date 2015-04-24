@@ -194,8 +194,7 @@ h4 {
  	padding-left: 1em;
  	margin-bottom: 0.5em;
  	padding-bottom: .5em;
- 	background-color: #a41e23;
- 	color: #fff;
+ padding-top: 0.5em;
  }
 
 .event {
@@ -257,9 +256,9 @@ footer {
 	top: 12px;
 	right: 30px;
 	position: relative;
-	background-color: #a41e23;
 	padding: 0.5em;
 	text-align: center;
+	border: solid #a41e23 3px;
 
 }
 
